@@ -8,7 +8,7 @@ I provide samples on how to do this using a number of different authentication f
   1) Authorization Code Grant Flow for Confidential Client
   2) Native Client Authentication
   3) Client Credential Flow
-    a) Using Application Key
-    b) Using Client Certificate
+    1) Using Application Key
+    2) Using Client Certificate
      
 These samples output the Access Token that was generated through authenticatoin which allows you to really easily check or verify the claims you recieve using JWT decoder like the one [here](https://github.com/shawntabrizi/JWT-Decoder-Javascript). Furthermore, you can start using these samples like POSTMan or other simple REST API callers to make quick and easy queries to AAD protected APIs.
