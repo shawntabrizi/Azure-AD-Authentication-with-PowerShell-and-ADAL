@@ -5,10 +5,10 @@ This is a set of really simple PowerShell scripts which allow you to get access 
 I have found in the past that just being able to do really basic things with Azure Active Directory or the AAD Graph API is unnessecarily complicated. I just want to get a token and start making direct REST API calls. Fortunately, you can use .NET assemblies in PowerShell, so we can really easily hook up ADAL to get a token, and then use "Invoke-RestMethod" to then call downstream APIs.
 
 I provide samples on how to do this using a number of different authentication flows:
-  1) Authorization Code Grant Flow for Confidential Client
-  2) Native Client Authentication
-  3) Client Credential Flow
-    1) Using Application Key
-    2) Using Client Certificate
+1. Authorization Code Grant Flow for Confidential Client
+2. Native Client Authentication
+3. Client Credential Flow
+    1. Using Application Key
+    2. Using Client Certificate
      
 These samples output the Access Token that was generated through authenticatoin which allows you to really easily check or verify the claims you recieve using JWT decoder like the one [here](https://github.com/shawntabrizi/JWT-Decoder-Javascript). Furthermore, you can start using these samples like POSTMan or other simple REST API callers to make quick and easy queries to AAD protected APIs.
