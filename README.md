@@ -12,3 +12,15 @@ I provide samples on how to do this using a number of different authentication f
     2. Using Client Certificate
      
 These samples output the Access Token that was generated through authenticatoin which allows you to really easily check or verify the claims you recieve using JWT decoder like the one [here](https://github.com/shawntabrizi/JWT-Decoder-Javascript). Furthermore, you can start using these samples like POSTMan or other simple REST API callers to make quick and easy queries to AAD protected APIs.
+
+# Prerequisites
+Note that you will need to download the .NET dlls for ADAL v2 in order to get these scripts to work.
+You can find those files on the [Nuget website for ADAL](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.28.4).
+
+Download the .nukpg file and unpack it with any file extrator.
+Take the contents from \lib\net45\ and copy them into the ADAL folder. There should be 3 files total:
+1. Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+2. Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+3. Microsoft.IdentityModel.Clients.ActiveDirectory.XML
+
+That's it!
