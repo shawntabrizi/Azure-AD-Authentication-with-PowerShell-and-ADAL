@@ -1,6 +1,8 @@
 # Azure-AD-Authentication-with-PowerShell-and-ADAL
 This is a set of really simple PowerShell scripts which allow you to get access tokens with with Azure Active Directory using ADAL. Whereas other samples may require you to write many lines of code, compile, and possibly even publish your web application, these PowerShell scripts can use as little as 13 lines of code to authenticate and make a call to the AAD Graph API.
 
+Read more about it here: http://shawntabrizi.com/aad/azure-ad-authentication-with-powershell-and-adal/
+
 # Overview
 I have found in the past that just being able to do really basic things with Azure Active Directory or the AAD Graph API is unnessecarily complicated. I just want to get a token and start making direct REST API calls. Fortunately, you can use .NET assemblies in PowerShell, so we can really easily hook up ADAL to get a token, and then use "Invoke-RestMethod" to then call downstream APIs.
 
