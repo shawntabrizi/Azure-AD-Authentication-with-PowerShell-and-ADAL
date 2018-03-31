@@ -3,6 +3,12 @@ This is a set of really simple PowerShell scripts which allow you to get access 
 
 Read more about it here: http://shawntabrizi.com/aad/azure-ad-authentication-with-powershell-and-adal/
 
+## Looking for MSAL samples?
+
+Find the equivalent MSAL integration with PowerShell for both Microsoft Accounts and Azure AD authentication here:
+
+https://github.com/shawntabrizi/Microsoft-Authentication-with-PowerShell-and-MSAL
+
 # Overview
 I have found in the past that just being able to do really basic things with Azure Active Directory or the AAD Graph API is unnessecarily complicated. I just want to get a token and start making direct REST API calls. Fortunately, you can use .NET assemblies in PowerShell, so we can really easily hook up ADAL to get a token, and then use "Invoke-RestMethod" to then call downstream APIs.
 
