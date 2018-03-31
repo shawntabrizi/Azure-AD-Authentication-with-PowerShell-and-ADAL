@@ -1,5 +1,5 @@
 # Load ADAL
-Add-Type -Path ".\ADAL\Microsoft.IdentityModel.Clients.ActiveDirectory.dll"
+Add-Type -Path "..\ADAL\Microsoft.IdentityModel.Clients.ActiveDirectory.dll"
 
 # Output Token and Response from AAD Graph API
 $accessToken = ".\Token.txt"

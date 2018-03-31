@@ -1,4 +1,4 @@
-You need to download the the .NET dlls for ADAL and place them in this folder.
+I have included the .NET dlls for ADAL and placed them in this folder.
 
 The download link can be found on Nuget:
 https://www.nuget.org/api/v2/package/Microsoft.IdentityModel.Clients.ActiveDirectory/2.28.3
@@ -7,4 +7,4 @@ Note: We specifically use ADAL v2 here.
 
 You can extract the contents of the .nupkg with a File Extractor like 7z, WinZip, etc...
 
-Extract the contents from \lib\net45\ and copy them here.
+I extracted the contents from \lib\net45\ and copied them here.
